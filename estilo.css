@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    font-family: Roboto;
+    height: 100%;
+    scroll-behavior: smooth;
+    background: rgb(250, 250, 250);
+    margin-left: 10px;
+    display: block;
+
+}
+
+div#interface { /* A div mãe tem que estar bem configurada para conter os elementos interiores.*/
+    position: absolute;
+    width: 1400px;
+}
+
+header{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .8);
+    
+}
+
+div#div-header {
+    width: 1200px;
+    height: 84px;
+}
+
+img#logo-peq {
+    position: relative;
+    margin-top: 28px;
+    margin-left: 87px;
+    width: 121px;
+    height: 40px;
+}
+
+input#bt-entrar {
+    font: bold;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 24px;
+    width: 79px;
+    height: 48px;
+    color: #FFC500;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    border-color: #FFC500;
+    border-radius: 30px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+input#bt-entrar:hover {
+    color: rgba(0, 0, 0, .8);
+    background-color: #FFC500;
+}
+
+section#sec-busca {
+    display: block;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 64px;
+    width: 100%;
+    height: 464px;
+    background: url(imagens/background.png) no-repeat;
+    background-position: bottom right; /*reduz o tamanho do background gigante para o tamanho da tela*/
+}
+
+div#busca {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    right: 50px;
+}
+
+h1{
+    z-index: 1;
+    font-size: 27pt;
+    line-height: 44px;
+    text-align: center;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 400;
+}
+
+input#bt-busca {
+    position: relative;
+    padding-left: 20px;
+    height: 40px;
+    border-radius: 7px;
+    bottom: 10px;
+    border: none;
+}
+
+/* pegar as imagens pelo firefox em informações da página*/
