@@ -6,16 +6,6 @@
 }
 
 
-body {
-    font-family: Roboto;
-    height: 100%;
-    scroll-behavior: smooth;
-    background: rgb(250, 250, 250);
-    margin-left: 10px;
-    display: block;
-
-}
-
 div#interface { /* A div mãe tem que estar bem configurada para conter os elementos interiores.*/
     position: absolute;
     width: 1400px;
@@ -69,19 +59,20 @@ input#bt-entrar:hover {
 section#sec-busca {
     display: block;
     position: absolute;
-    margin-left: -10px;
+    margin-left: -60px;
     margin-top: 64px;
     width: 100%;
     height: 464px;
     background: url(imagens/background.png) no-repeat;
     background-position: bottom right; /*reduz o tamanho do background gigante para o tamanho da tela*/
+    
 }
 
 div#busca {
     text-align: center;
     position: relative;
-    top: 40px;
-    right: 50px;
+    top: 43px;
+    right: -22px;
 }
 
 h1{
@@ -90,16 +81,37 @@ h1{
     line-height: 44px;
     text-align: center;
     color: rgba(0, 0, 0, .8);
-    font-weight: 400;
+    font-weight: lighter;
 }
 
 input#bt-busca {
     position: relative;
-    padding-left: 20px;
-    height: 40px;
-    border-radius: 7px;
-    bottom: 10px;
+    padding-left: 30px;
+    height: 45px;
+    border-width: 1px;
+    border-radius: 8px;
+    bottom: 15px;
     border: none;
+    width: 570px;
+    font-family: Roboto;
+    font-size: 12pt;
 }
 
+section#sec-comoFunciona {
+    display: block;
+    position: absolute;
+    top: 528px;
+    width: 100%;
+}
+
+h2 {
+    position: relative;
+    font-size: 23pt;
+    text-align: center;
+    color: #333;
+    font-weight: lighter;
+    font: bold;
+    top: 10px;
+    right: 35px;
+}
 /* pegar as imagens pelo firefox em informações da página*/
