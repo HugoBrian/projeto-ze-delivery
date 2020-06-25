@@ -114,4 +114,13 @@ h2 {
     top: 10px;
     right: 35px;
 }
+
+div#div-itens{
+    position: relative;
+    left: 80px;
+    width: 1168px;
+    height: 264px;
+    background-color: #333;
+    
+}
 /* pegar as imagens pelo firefox em informações da página*/
