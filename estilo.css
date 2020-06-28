@@ -270,4 +270,37 @@ img.minis {
     margin-left: 15px;
 }
 
+section#sec-cidades {
+    position: relative;
+    display: block;
+    float: bottom;
+    width: 1168px;
+    height: 315px;
+    left: 80px;
+    background-color: rgb(245, 245, 245);
+    padding-top: 16px;
+}
+
+h3#h3-cidades {
+    right: 25px;
+    margin-bottom: 30px;
+}
+
+ul#lista-cidades {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+ul#lista-cidades li{
+    position: relative;
+    display: block;
+    float: left;
+    width: 189.33px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
 /* pegar as imagens pelo firefox em informações da página*/
