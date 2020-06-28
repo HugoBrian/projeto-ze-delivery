@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-*{
+body{
     font-family: 'Roboto', sans-serif;
+    background: rgb(250, 250, 250);
 }
 
 
@@ -58,20 +59,20 @@ input#bt-entrar:hover {
 
 section#sec-busca {
     display: block;
-    position: absolute;
+    position: relative;
+    float: bottom;
     margin-left: -60px;
     margin-top: 64px;
     width: 100%;
     height: 464px;
     background: url(imagens/background.png) no-repeat;
     background-position: bottom right; /*reduz o tamanho do background gigante para o tamanho da tela*/
-    
 }
 
 div#busca {
     text-align: center;
     position: relative;
-    top: 43px;
+    top: 73px;
     right: -22px;
 }
 
@@ -99,8 +100,8 @@ input#bt-busca {
 
 section#sec-comoFunciona {
     display: block;
-    position: absolute;
-    top: 528px;
+    position: relative;
+    float: bottom;
     width: 100%;
 }
 
@@ -147,7 +148,7 @@ ul#lista-itens {
 }
 
 ul#lista-itens li{
-    background-color: white;
+    background-color: rgb(250, 250, 250);;
     float: left;
     width: 288px;
     height: 232px;
@@ -162,4 +163,111 @@ img.como-funciona {
     margin: auto;
     margin-bottom: 12px;
 }
+
+section#produtos {
+    display: block;
+    position: relative;
+    float: bottom;
+    width: 1200px;
+    height: 435px;
+    left: 80px;
+    background-color: rgb(250, 250, 250);;
+}
+
+h3#h3-produtos {
+    text-align: center;
+    right: 17px;
+}
+
+ul#lista-produtos {
+    list-style: none;
+    background-color: rgb(250, 250, 250);;
+    width: 1168px;
+    height: 388px;
+    padding: 0px;
+}
+
+ul#lista-produtos li {
+    position: relative;
+    display: block;
+    float: left;
+    width: 277px;
+    height: 368px;
+    padding: 12px 0px 0px;
+    background-color: white;
+    margin: 4px 11px 16px 4px;
+    border-radius: 8px;
+    background-image: url("imagens/fundo-produtos.png");
+    background-size: 255px 248px;
+    background-repeat: no-repeat;
+    background-position: 10px 25px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+}
+
+
+img.img-produto {
+    position: relative;
+    display: block;
+    float: top;
+    width: 275px;
+    height: 278px;
+}
+
+div.legenda-produtos {
+    position: relative;
+    display: block;
+    float: bottom;
+    top: 30px;
+    border-top: 1px solid #e4e2e2;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+section#variedades {
+    position: relative;
+    display: block;
+    float: bottom;
+    width: 1168px;
+    height: 168px;
+    left: 80px;
+    background-color: rgb(250, 250, 250);;
+}
+
+ul#lista-variedades {
+    position: relative;
+    list-style: none;
+    padding: 0px;
+    background-color: rgb(250, 250, 250);
+}
+
+ul#lista-variedades li {
+    position: relative;
+    display: block;
+    float: left;
+    width: 368px;
+    height: 72px;
+    margin: 3px;
+    background-color: rgb(245, 245, 245);
+}
+
+h3.variedades {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    text-align: left;
+    line-height: 70px;
+}
+
+img.minis {
+    display:block;
+    float: left; 
+    width: 24px;
+    height: 24px;
+    margin-top: 23px;
+    margin-left: 15px;
+}
+
 /* pegar as imagens pelo firefox em informações da página*/
