@@ -369,4 +369,28 @@ p#voltar {
     text-decoration: none;
 }
 
+footer{
+    background-color: #333333;
+    width: 100%;
+    height: 366px;
+    margin-left: -10px;
+}
+
+div#foo1 {
+    position: relative;
+    width: 1152px;
+    height: 134px;
+    background-color: lightsteelblue;
+    left: 77px;
+    padding: 24px;
+}
+
+div.foo1 {
+    width: 288px;
+    height: 132px;
+    float: left;
+    background-color: rosybrown;
+}
+
+
 /* pegar as imagens pelo firefox em informações da página*/
