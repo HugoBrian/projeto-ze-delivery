@@ -308,7 +308,6 @@ ul#lista-cidades li{
 section#sec-app {
     width: 1400px;
     height: 520px;
-    background-color: #FFC500;
     position: relative;
     float: bottom;
     margin-left: -10px;    
@@ -317,9 +316,46 @@ section#sec-app {
 div#back {
     position: relative;
     display: block;
+    float: bottom;
     width: 100%;
     height: 420px;
     top: 100px;
-    background: url(imagens/background-bottom.png);
+    background: url(imagens/background-bottom.png) no-repeat;
+    background-position: bottom left;
+    background-size: 1920px 450px;
 }
+
+div#lojas{
+    position: absolute;
+    left: 570px;
+    top: 20px;
+}
+
+p#txt-app {
+    position: relative;
+    top: 10px;
+    left: 110px;
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+}
+
+div#icones-loja {
+
+}
+
+img.img-loja {
+    position: relative;
+    display: block;
+    float: left;
+    width: 190px;
+    height: 56px;
+    top: 25px;
+    left: 95px;
+    margin-left: 15px;
+}
+
+
 /* pegar as imagens pelo firefox em informações da página*/
