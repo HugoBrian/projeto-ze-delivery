@@ -342,9 +342,6 @@ p#txt-app {
     color: #333;
 }
 
-div#icones-loja {
-
-}
 
 img.img-loja {
     position: relative;
@@ -357,5 +354,19 @@ img.img-loja {
     margin-left: 15px;
 }
 
+section#voltar {
+    width: 100%;
+    height: 56px;
+    margin-left: -10px;
+    background-color: #666666;
+}
+
+p#voltar {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 56px;
+    right: 20px;
+    text-decoration: none;
+}
 
 /* pegar as imagens pelo firefox em informações da página*/
