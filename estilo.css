@@ -4,6 +4,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background: rgb(250, 250, 250);
+    overflow-x: hidden;
 }
 
 
@@ -380,17 +381,59 @@ div#foo1 {
     position: relative;
     width: 1152px;
     height: 134px;
-    background-color: lightsteelblue;
+    background-color: #333333;
     left: 77px;
     padding: 24px;
+    border-bottom: 1px solid #666666;
 }
 
 div.foo1 {
     width: 288px;
-    height: 132px;
+    height: 130px;
     float: left;
-    background-color: rosybrown;
+    background-color: #333333;
 }
 
+img.ico-redes{
+    width: 28px;
+    height: 26px;
+    margin-left: 41px;
+    margin-top: 15px;
+}
 
-/* pegar as imagens pelo firefox em informações da página*/
+p.txt-sub {
+    text-align: left;
+    left: 73px;
+    text-decoration: underline;
+    color: white; 
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+div#foo2{
+    position: relative;
+    width: 1152px;
+    height: 91px;
+    background-color: #333333;
+    left: 77px;
+    padding: 24px;
+    border-bottom: 1px solid #666666;
+}
+
+ul#lista-cidades-atendidas li{
+    text-decoration: none;
+    width: 176px;
+    height: 20px;
+    float: left;
+    text-align: left;
+    color: white; 
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+div#foo3 {
+    position: relative;
+    width: 1152px;
+    left: 77px;
+}
+/*Alterar a fonte para a Robote certa*/
